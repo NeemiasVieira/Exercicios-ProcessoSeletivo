@@ -1,0 +1,5 @@
+C:\Users\Windows\Desktop\Exercício1.exe
+C:\Users\Windows\Desktop\Exercício1.dll
+C:\Users\Windows\Desktop\Exercício1.deps.json
+C:\Users\Windows\Desktop\Exercício1.runtimeconfig.json
+C:\Users\Windows\Desktop\Exercício1.pdb

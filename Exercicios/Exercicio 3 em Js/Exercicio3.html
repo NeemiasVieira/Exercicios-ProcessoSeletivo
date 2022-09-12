@@ -1,0 +1,52 @@
+<!-- Gerador de crachás
+Autor: Neemias Vieira, Github: https://github.com/NeemiasVieira -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/ModalGR.png" type="icon" >
+    <title>Gerador de Crachás</title>
+</head>
+
+<header>
+    
+    <img class="imgHeader" src="img/ModalGR.png" alt="">
+    <h1>Exercício 3 - Gerador de crachás</h1>
+    
+</header>
+
+<body>
+    <img class="imgBody"src="img/Modalback.png" alt="">
+
+    <section class="formdiv">
+        <form id= "formName"action="submit">
+            <h4>Digite o nome do colaborador</h4>
+            <input id= "campoNome" type="text">
+            <button type="submit">Gerar crachá</button>
+            <button type="button" onclick="limpar()">Limpar os dados</button>
+            <button type="button" onclick="window.print()">Imprimir crachá</button>
+        </form>
+        
+        <div class="cracha" class="print">
+            <img class="imgLogo" id="imgtoPrint" src="img/ModalGR.png" alt="Logomarca da empresa ModalGR">
+            <p id="lbl_name" class="textoExibicao">O nome será exibido aqui</p>
+            <img class="imgPerfil" src="./img/perfil.png" alt="">
+        </div>
+    </section>
+
+</body>
+
+    <footer>
+        <img class="imgLogo" src="img/ModalGR.png" alt="Logomarca da empresa ModalGR">
+        <p>Autor: Neemias Vieira</p>
+        <a href="https://github.com/NeemiasVieira" target="_blank">Perfil Github</a>
+    </footer>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="script/script.js"></script>
+
+</html>

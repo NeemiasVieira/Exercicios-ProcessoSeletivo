@@ -1,0 +1,175 @@
+/* Gerador de crachás */
+/* Autor: Neemias Vieira, Github: https://github.com/NeemiasVieira */
+
+
+/* Globais */
+
+*{
+    font-family: 'Montserrat', sans-serif;      
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 25, 139, 0.8), rgb(0, 25, 139, 1.0));
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    min-height: 8vh;
+
+}
+
+header h1{
+    font-weight: 900;
+    display: flex;
+    justify-self: center;
+    padding-right: 10vw;
+}
+
+header img{
+    padding-left: 5vw;
+}
+
+header:hover{
+    background-color: rgb(0, 25, 139, 0.7);
+}
+
+/* Body */
+
+body,h1{
+    margin: 0 auto;    
+    max-width: 1440px;
+}
+
+.imgBody{
+    width: 100vw;
+    max-width: 1440px;
+    height: 35vh;
+}
+
+/* Div Main */
+
+.formdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    padding: 25px 0;
+    background-color: rgb(0, 57, 91);
+    
+}
+
+.cracha{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;    
+    width: 310px;
+    max-width: 310px;
+    height: 50vh;
+    border: solid #222 3px;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-image: linear-gradient(#222,#016090);
+}
+
+.textoExibicao{
+    font-family: 'Courier New', monospace;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+
+.imgPerfil{
+    padding-top: 5vh;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+form{
+    border: solid black 3px;
+    padding: 0 15px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+form input{
+    width: 300px;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    
+}
+form button{
+    margin-top: 20px;
+    background-color: rgb(0, 57, 91, 0.9);
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: 600;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(0, 57, 91, 1);
+}
+
+.imgLogo{
+    max-width: 75px;
+    max-height: 60px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222;
+    color: whitesmoke;
+    min-height: 10vh;
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+ footer a:visited, footer a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgb(5, 192, 255);
+    text-decoration: none;
+}
+
+/* Para Imprimir */
+
+  @media print{ 
+    *{
+        visibility: hidden;
+    }
+    .cracha {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 420px;
+        -webkit-print-color-adjust: exact;
+    }
+
+    #imgtoPrint,.textoExibicao,.imgPerfil{
+        visibility: visible;
+    }
+
+  }   
