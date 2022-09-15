@@ -43,9 +43,9 @@ desconsiderados;
 ➢ A quantidade de nomes de um determinado colaborador não deve afetar
 o funcionamento real da solução.
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Resolução e comentários
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 
 1) Foi implementado na linguagem C# através do software Microsoft Visual Studio 2022, com base de programação orientada a objetos, foi implementado:
