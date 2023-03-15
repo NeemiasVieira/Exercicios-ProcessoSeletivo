@@ -172,4 +172,56 @@ footer a:hover{
         visibility: visible;
     }
 
-  }   
+  } 
+  
+  @media screen and (max-width : 480px){
+    .imgHeader, .imgLogo{
+        height: 6vh;
+        width: 15vw;
+    }
+
+    .imgBody{
+        height: 20vh;
+        width: 100vw;
+    }
+
+    #formName{
+        width: 70vw;
+        height: 30vh;
+    }
+
+    form button, form input{
+        width: 55vw;
+    }
+
+    header h1{
+        font-size: 1em;
+    }
+
+    .formdiv{
+        flex-flow: column wrap;
+        gap: 5vh
+    }
+
+    .cracha{
+        height: 50vh;
+    }
+
+    .textoExibicao{
+        font-size: .8em;
+    }
+
+    .imgPerfil{
+        padding-top: 8vh
+    }
+
+    p, a{
+        font-size: .6em;
+    }
+
+    
+  }
+
+
+
+
